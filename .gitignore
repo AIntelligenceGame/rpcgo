@@ -1,0 +1,13 @@
+# Log files
+*.log
+# Editor directories and files
+.idea/
+vendor/
+# 本地makefile
+# Makefile
+.vscode/
+.vscode
+key
+bzops_rsa
+govariable.bat
+*.csv

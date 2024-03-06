@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+// .表示就直接生成在输出路径下，rpcgo是包名
+option go_package = ".;rpcgo";
+
+// 请求
+message HelloReq {
+  string name = 1;
+}
+
+// 响应
+message HelloRep {
+  string msg = 1;
+}
+
+// 定义服务
+service SayHello {
+  rpc Hello(HelloReq) returns (HelloRep) {}
+}
