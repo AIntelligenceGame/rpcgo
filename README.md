@@ -1,6 +1,6 @@
 # 创建rpcgo 目录和初始化
     mkdir -p rpcgo
-    go mod init github.com/shangguanairen/rpcgo
+    go mod init github.com/AIntelligenceGame/rpcgo
 
 # 生成代码
     make proto_gen
